@@ -2,7 +2,7 @@
 Total_income = float(input("How much do you MAKE monthly? "))
 Fixed_expenses = float(input("How much do you SPEND monthly? "))
 
-# Function to collect variable expenses
+
 def get_variable_expenses():
     all_expenses = []
     while len(all_expenses) < 5:  # Limit to 5 expenses
